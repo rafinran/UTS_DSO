@@ -11,12 +11,12 @@
     <div class="portofolio">
         
         <div class="portofolio_item">
-            <a href="chapter_1.php" class="label">Solo Leveling</a>
-            <a href="chapter_1.php" class="thumbnail"></a>
+            <a href="solev.php" class="label">Solo Leveling</a>
+            <a href="solev.php" class="thumbnail"></a>
         </div>
         <div class="portofolio_item_reversed">
-            <a class="label">A wonderful night</a>
-            <a class="thumbnail_2"></a>
+            <a href="ragnarok.php" class="label">Solo Leveling: Ragnarok</a>
+            <a href="ragnarok.php" class="thumbnail_2"></a>
         </div>
     </div>
 </body>
