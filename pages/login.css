@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("a professional white zen minimalist aesthetic desktop wallpaper 1.png");
+    background-size: cover;
+    background-position: center ;
+}
+
+@font-face {
+    font-family: AnticDidone;
+    src: url("font/AnticDidone/AnticDidone-Regular.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: GFSDidot;
+    src: url("font/GFSDidot/GFSDidot-Regular.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*.container{
+    width: 100%;
+    max-width: 350px;
+    color: #000;
+    position: relative;
+}
+
+.back-button{
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}*/
+
+@media (max-width:768px){
+    h2{
+        font-size: 40px;
+        letter-spacing: 5px;
+        font-family: AnticDidone;
+        padding-top: 5%;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        padding: 70px 25px;
+        position: relative;
+        backdrop-filter: blur(5px);
+    }
+    
+    .back-arrow{
+        padding-top: -5%;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .login label{
+        padding-top: 15px;
+        font-family: GFSDidot;
+        letter-spacing: 1px;
+    }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login input{
+        padding: 5px;
+        border-radius: 8px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .login_button{
+        font-family: GFSDidot;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #5F7368;
+        padding: 5px;
+        border: none;
+        margin-top: 30px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100px;
+        margin-left: auto;
+    }
+
+    .quote{
+        margin-top: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .quote p{
+        padding-top: 10%;
+        font-size: 85%;
+        margin-left: auto;
+        text-align: right;
+        letter-spacing: 5px;
+    }
+
+    .quote span{
+        font-family: GFSDidot;
+        font-size: 8px;
+        letter-spacing: 3px;
+        margin-left: auto;
+    }
+}
