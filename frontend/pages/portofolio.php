@@ -7,16 +7,16 @@
 </head>
 <body>
     <div class="overlay"></div>
-    <a href="#" class="back-arrow">←</a>
+    <a href="welcome.php" class="back-arrow">←</a>
     <div class="portofolio">
         
         <div class="portofolio_item">
-            <div class="label">A mismerizing evening</div>
-            <div class="thumbnail"></div>
+            <a href="chapter_1.php" class="label">Solo Leveling</a>
+            <a href="chapter_1.php" class="thumbnail"></a>
         </div>
         <div class="portofolio_item_reversed">
-            <div class="label">A wonderful night</div>
-            <div class="thumbnail_2"></div>
+            <a class="label">A wonderful night</a>
+            <a class="thumbnail_2"></a>
         </div>
     </div>
 </body>

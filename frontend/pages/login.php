@@ -12,7 +12,7 @@
         // Verify username and password
         if ($username == $valid_username && $password == $valid_password) {
             $_SESSION["username"] = $username;  
-            header("location: chapter_1.php");
+            header("location: portofolio.php");
             exit;
         } else {
             //Jika menggunakan database (fitur menyusul)
@@ -49,7 +49,7 @@
 </head>
 <body>
     <div class="container">
-        <a href="#" class="back-arrow">←</a>
+        <a href="welcome.php" class="back-arrow">←</a>
         <h2>Login</h2>
         <form method="post" action="" class="login">
             <label for="Username">Username</label>

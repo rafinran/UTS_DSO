@@ -9,11 +9,11 @@
     <div class="intro">
         <h2>WELCOME</h2>
         <span class="circle"></span>
-        <div class="hamburger">
+        <a href="login.php" class="hamburger">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </a>
         <p>Simplicity is the ultimate <br> shopistication</p>
     </div>
 </body>
